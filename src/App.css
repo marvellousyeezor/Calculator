@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;500;700&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 18px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-color: #f3f1e9;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.secondContainer {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  width: 256px;
+  text-align: center;
+  border: 6px solid #ffffff;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+  
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  height: 62px;
+  width: 62px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.specialButton {
+  height: 62px;
+  width: 123.5px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #537ac1;
+}
+
+input[type='text']{
+height: 70px;
+width: 245px;
+text-align: right;
+font-size: 25px;
+font-weight: 700;
+letter-spacing: 1px;
+margin: 1px;
+border-radius: 10px;
+}
+
+button{
+  margin: 1px;
+}
+
+#sign{
+  background-color: #777774;
+}
+
+#clear{
+  background-color: #777774;
 }
